@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link href="stylesheet.css" rel="stylesheet"/>
+</head>
+
+<body id="layout-2">
+<header class="header-atlanta">
+    <a href="https://en.wikipedia.org/wiki/Georgia_(U.S._state)#/media/File:Seal_of_Georgia.svg" target="_blank"><img src="Seal_of_Georgia.svg" alt="an image of Georgia's seal" height="200" width="200"></a>
+    
+</header>
+
+<nav class="nav-atlanta">
+    <div>
+        <a href="index.html">Homepage</a>
+    </div>
+    <div>
+        <a href="Atlanta.html">Atlanta, GA</a>
+    </div>
+    <div>
+        <a href="Dallas.html">Dallas, GA</a>
+    </div>
+    <div>
+        <a href="Duluth.html">Duluth, GA</a>
+    </div>
+</nav>
+
+<section class="section-atlanta">
+    <form class="form-container" onsubmit="return validate_email();">
+        <fieldset class="form-fieldset">
+            <legend class="form-legend">Web Form</legend>
+            
+            <div class="form-div"> 
+            <label for="firstname">First Name:</label>
+            <input type="text" name="fname" id="firstname" placeholder="First name">
+            </div>
+
+            <div class="form-div">
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lname" id="lastname" placeholder="Last name">
+            </div>
+            
+            <div class="form-div">
+            <label for="emailid">Email:</label>
+            <input type="email" name="email" id="emailid" placeholder="Email">
+            </div>
+            
+            <div class="form-div"> 
+            <label for="confemail">Confirm Email:</label>
+            <input type="email" name="c_email" id="confemail" placeholder="Email confirmation">
+            </div>
+            
+            <div class="form-text">
+            <label for="question-area">Have a question?</label>
+            <textarea id="question-area" name="question" rows="3" cols="15"></textarea>
+            </div>
+            
+            <div class="form-div">
+            <input type="submit" name="submit" value="Submit">
+            </div>
+        </fieldset>
+    </form>
+</section>
+
+<aside class="aside-atlanta">
+  <h2>Did You Know?</h2>
+  <p>
+    Georgia has 159 counties!
+  </p>
+</aside>
+
+<script src="js.js"></script>
+</body>
+</html>
+
+
+
