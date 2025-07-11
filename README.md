@@ -81,5 +81,5 @@ Outcome
 Author
 
 Nia Bowman
-Student of Software Engineering – Western Governors University
+Student of Software Engineering – Western Governors University,
 Interested in full-stack development, mobile applications, and robotics systems.
